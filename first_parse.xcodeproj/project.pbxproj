@@ -14,6 +14,8 @@
 		241CA1331FA045D90004D6ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 241CA1311FA045D90004D6ED /* LaunchScreen.storyboard */; };
 		241CA13E1FA045DA0004D6ED /* first_parseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241CA13D1FA045DA0004D6ED /* first_parseTests.swift */; };
 		241CA1491FA045DA0004D6ED /* first_parseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241CA1481FA045DA0004D6ED /* first_parseUITests.swift */; };
+		241CA1571FA051600004D6ED /* 전국지정약수터표준데이터.xml in Resources */ = {isa = PBXBuildFile; fileRef = 241CA1561FA051600004D6ED /* 전국지정약수터표준데이터.xml */; };
+		241CA15A1FA053AA0004D6ED /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 241CA1591FA053AA0004D6ED /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		241CA1441FA045DA0004D6ED /* first_parseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = first_parseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		241CA1481FA045DA0004D6ED /* first_parseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = first_parseUITests.swift; sourceTree = "<group>"; };
 		241CA14A1FA045DA0004D6ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		241CA1561FA051600004D6ED /* 전국지정약수터표준데이터.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "전국지정약수터표준데이터.xml"; sourceTree = "<group>"; };
+		241CA1591FA053AA0004D6ED /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				241CA15A1FA053AA0004D6ED /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,7 @@
 				241CA13C1FA045DA0004D6ED /* first_parseTests */,
 				241CA1471FA045DA0004D6ED /* first_parseUITests */,
 				241CA1261FA045D90004D6ED /* Products */,
+				241CA1581FA053AA0004D6ED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +107,7 @@
 				241CA12A1FA045D90004D6ED /* ViewController.swift */,
 				241CA12C1FA045D90004D6ED /* Main.storyboard */,
 				241CA12F1FA045D90004D6ED /* Assets.xcassets */,
+				241CA1561FA051600004D6ED /* 전국지정약수터표준데이터.xml */,
 				241CA1311FA045D90004D6ED /* LaunchScreen.storyboard */,
 				241CA1341FA045D90004D6ED /* Info.plist */,
 			);
@@ -123,6 +130,14 @@
 				241CA14A1FA045DA0004D6ED /* Info.plist */,
 			);
 			path = first_parseUITests;
+			sourceTree = "<group>";
+		};
+		241CA1581FA053AA0004D6ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				241CA1591FA053AA0004D6ED /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				241CA1331FA045D90004D6ED /* LaunchScreen.storyboard in Resources */,
+				241CA1571FA051600004D6ED /* 전국지정약수터표준데이터.xml in Resources */,
 				241CA1301FA045D90004D6ED /* Assets.xcassets in Resources */,
 				241CA12E1FA045D90004D6ED /* Main.storyboard in Resources */,
 			);
@@ -505,6 +521,7 @@
 				241CA14F1FA045DA0004D6ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		241CA1501FA045DA0004D6ED /* Build configuration list for PBXNativeTarget "first_parseTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +530,7 @@
 				241CA1521FA045DA0004D6ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		241CA1531FA045DA0004D6ED /* Build configuration list for PBXNativeTarget "first_parseUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +539,7 @@
 				241CA1551FA045DA0004D6ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
